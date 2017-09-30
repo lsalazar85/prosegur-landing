@@ -1,0 +1,1367 @@
+/*Fuentes*/
+@font-face {
+    font-family: 'dinpromedium';
+    src: url('fonts/dinpro-medium-webfont.eot');
+    src: url('fonts/dinpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dinpro-medium-webfont.woff') format('woff'),
+         url('fonts/dinpro-medium-webfont.ttf') format('truetype'),
+         url('fonts/dinpro-medium-webfont.svg#dinpromedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dinprobold';
+    src: url('fonts/dinpro-bold-webfont.eot');
+    src: url('fonts/dinpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dinpro-bold-webfont.woff') format('woff'),
+         url('fonts/dinpro-bold-webfont.ttf') format('truetype'),
+         url('fonts/dinpro-bold-webfont.svg#dinprobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dinprolight';
+    src: url('fonts/dinprolight-webfont.eot');
+    src: url('fonts/dinprolight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/dinprolight-webfont.woff') format('woff'),
+         url('fonts/dinprolight-webfont.ttf') format('truetype'),
+         url('.fonts/dinprolight-webfont.svg#dinprolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*Fin Fuentes*/
+
+/*sticky footer*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 150px; /* bottom = footer height */
+}
+/*fin sticky footer*/
+
+body {
+	background-image: -ms-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #DCDCDD 100%);
+	background-image: -moz-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #DCDCDD 100%);
+	background-image: -o-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #DCDCDD 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFFFFF), color-stop(1, #DCDCDD));
+	background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFFFF 0%, #DCDCDD 100%);
+	background-image: radial-gradient(circle farthest-corner at center, #FFFFFF 0%, #DCDCDD 100%);
+}
+.cleaner{
+	clear:both;
+}
+
+#logo_mobile,#logo_mobile_index {
+	display:none;
+}
+
+#btn_vermas_principal{
+	display:none;	
+}
+
+.llamanos{
+	display:none;
+}
+
+#header_mobile_camaras{
+	display:none;
+}
+
+#contenedor_superior{
+	max-width:1000px;
+	/*height:446px;*/
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior.jpg);
+	background-position: center;
+}
+
+#contenedor_superior_cabaygba{
+	max-width:1000px;
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_cabaygba.jpg);
+	background-repeat: no-repeat;
+}
+#contenedor_superior_mardelplata{
+	max-width:1000px;
+	height: 460px;
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_mardelplata.jpg);
+}
+#contenedor_superior_corrientes{
+	max-width:1000px;
+	height: 460px;
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_corrientes.jpg);
+}
+#contenedor_superior_mendoza{
+	max-width:1000px;
+	height: 460px;
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_mendoza.jpg);
+}
+#contenedor_superior_sanluis{
+	max-width:1000px;
+	height: 460px;
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_sanluis.jpg);
+}
+#contenedor_superior_neuquen{
+	max-width:1000px;
+	height: 460px;
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_neuquen.jpg);
+}
+#contenedor_superior_santafe{
+	max-width:1000px;
+	height: 460px;
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_santafe.jpg);
+}
+#contenedor_superior_resistencia{
+	max-width:1000px;
+	height: 460px;
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_resistencia.jpg);
+}
+#contenedor_superior_rosario{
+	max-width:1000px;
+	height: 460px;
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_rosario.jpg);
+}
+
+
+#contenedor_superior_camaras{
+	max-width:1000px;
+	/*height:446px;*/
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_camaras.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#contenedor_superior_mobile{
+	max-width:1000px;
+	/*height:446px;*/
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_mobile.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#contenedor_superior_prosegurmobile{
+	max-width:1000px;
+	/*height:446px;*/
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_Prosegurmobile.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#contenedor_superior_cajafuerte{
+	max-width:1000px;
+	/*height:446px;*/
+	margin:0 auto;
+	background-image:url(../img/fondo_contenedor_superior_cajas.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.imagen-mobile{
+	display: none;
+}
+#contenedor_medio{
+	max-width:1000px;
+	margin:20px auto;
+	text-align: center;
+}
+
+#contenedor_medio_cajafuerte{
+	max-width:1000px;
+	margin:-10px auto 20px;
+}
+
+#contenedor_principal{
+	float:left;
+	margin-top:20px;
+}
+
+#contenedor_principal a{
+	color:#000;
+}
+
+#contenedor_form{
+	float:right;
+	width:300px;
+	background-image:url(../img/fondo_form.jpg);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color:#fff1b0;
+	margin-top:20px;
+}
+
+/*Conetendor Productos*/
+#producto_titulo{
+	margin-top: 40%;
+	/*font-family:dinpromedium;
+	text-transform:uppercase;
+	background-color:#8e8e8e;
+	color:#FFF;
+	padding:5px 20px;*/
+}
+
+#producto_titulo p{
+	font-family:dinpromedium;
+	text-transform:uppercase;
+	margin:0px;
+	font-size:18px;
+	letter-spacing:1px;
+	color:#FFF;
+}
+
+#producto_titulo_descripcion{
+	float:left;
+	background-color:#8e8e8e;
+	padding:5px 20px;
+}
+
+#producto_titulo_borde{
+	float:left;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 35px 16px 0 0;
+	border-color: #8e8e8e transparent transparent transparent;
+}
+
+#producto_descripcion{
+	/*background-color:#ffda22;*/
+	/*padding: 10px 0px;*/
+}
+
+#linea1{
+	font-family:dinpromedium;	
+	text-transform:uppercase;
+	font-family:14px;
+}
+
+#linea2{
+	font-family:dinprobold;
+	font-size: 28px;
+	line-height: 22px;
+}
+
+#linea3{
+	font-family:dinprolight;
+	font-size: 18px;	
+}
+
+#linea1,#linea2,#linea3,#linea_color{
+	margin:0px;
+	padding:0px 0px 0px 20px;
+}
+
+#linea_color{
+	font-family:dinprobold;
+	color:#fe1e1e;
+	text-transform:uppercase;
+	font-size: 20px;
+}
+
+#producto_contenedor_descripcion,#producto_contenedor_borde{
+	float:left;		
+}
+
+#producto_contenedor_descripcion{
+	width:240px;
+	background-color:#ffda22;
+	padding: 10px 0px;
+}
+
+#producto_contenedor_borde{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 87px 40px 0 0;
+	border-color: #ffda22 transparent transparent transparent;
+}
+
+#por_tu_familia{
+	margin-left: 50%;
+	margin-top: 40px;
+}
+/*Fin Conetendor Productos*/
+/*Contenedor Formulario*/
+#form_titulo{
+	height: 45px;
+	background-image:url(../img/fondo_titulo_form.png);
+	width: 100%;
+	display: table;
+	-webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.5);
+	box-shadow: 4px 4px 20px 0px rgba(0,0,0,0.5);
+}
+
+#form_titulo p {
+	font-family: 'dinpromedium';
+	text-transform: uppercase;
+	font-size: 18px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#form_titulo_borde {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #f3cd0f transparent transparent transparent;
+	margin: 0 auto;
+}
+
+#form_texto{
+	font-family:dinprolight;
+	font-size:18px;	
+	font-weight: 800;
+	text-align: center;
+}
+
+#form-prosegur {
+	width: 85%;
+	margin: 0 auto;
+}
+
+label{
+	font-family:dinprolight;
+	color:#6d6c6c;
+	margin-bottom:4px;
+}
+
+input#nombre {
+	width: 100%;
+}
+
+.form_col1{
+	width:48%;
+	float:left;
+}
+
+.form_col2{
+	width:48%;
+	float:right;
+}
+input, button, select, textarea {
+	width:100%;
+	border:none;
+	height:26px;
+}
+
+textarea{
+	resize:none;
+	height:60px;
+}
+
+select#localidad {
+	height: 26px;
+}
+
+#boton_form{
+	background-color:#929493;
+	text-align:center;
+	font-family:dinprobold;
+	color:#fff;
+	text-transform:uppercase;
+	font-size: 16px;
+	width:100px;
+}
+
+#form_linea4 {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 6px;
+}
+
+#form_linea2,#form_linea3,#form_linea4,.campos_textarea{
+	margin-top: 5px;
+}
+#deseo_novedades {
+    float: left;
+    height: 20px;
+    margin-top: 0;
+    width: 20px;
+}
+
+#form-prosegur label{
+    color: #3c3c3c;
+    font-family: "dinpromedium";
+    font-weight: 700;
+}
+/*Fin Contenedor Formulario*/
+
+/*Pyme*/
+#prosegur_pyme{
+	background-color:#5c5b5b;
+	height:60px;
+	display:table;
+	width:100%;
+	padding:0px 30px;
+}
+
+#prosegur_pyme p{
+	float:left;
+	color:#fff;
+	font-family:dinprolight;
+	margin:0px;
+	font-size:20px;
+	padding-top: 18px;
+}
+
+#prosegur_pyme span{
+	text-transform:uppercase;
+	font-family:dinpromedium;
+}
+
+#prosegur_pyme a{
+	float:left;
+	color:#535252;
+	font-family:dinprolight;
+	margin:0px;
+	font-size:20px;
+	vertical-align:middle;
+	padding:2px 5px;
+	background-color:#d3d2d2;
+	margin: 16px 20px 0px 20px;
+}
+
+#prosegur_pyme img{
+	float:right;
+	margin-top: 5px;
+}
+/*Fin Pyme*/
+
+/*Productos_prosegur*/
+#contenedor_productos {
+	display: table;
+	margin: 0 auto;
+	max-width: 975px;
+	width: 100%;
+}
+
+#contenedor_productos a{
+	color:#333;
+}
+
+
+#productos_camaras {
+	background-image: url(../img/fondo_camaras.jpg);
+	background-repeat: no-repeat;
+}
+
+.productos {
+	float: left;
+	width: 285px;
+	height: 200px;
+	margin: 20px;
+	-webkit-box-shadow: 4px 4px 15px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 4px 4px 15px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: 4px 4px 15px 0px rgba(50, 50, 50, 0.75);
+}
+
+.productos_titulos {
+	background-color: #ffda22;
+	text-align: center;
+	width: 285px;
+	height: 60px;
+	display: table;
+}
+
+.productos_titulos p {
+	text-transform: uppercase;
+	font-family: 'dinpromedium';
+	font-size: 18px;
+	margin: 0px;
+	padding: 5px 0px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.productos_titulos_borde {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #ffda22 transparent transparent transparent;
+	margin: 0 auto;
+}
+
+.productos_contenido {
+	text-align: right;
+}
+
+.precio {
+	font-family: 'dinprobold';
+	font-size: 60px;
+	margin: 0px;
+	line-height: 30px;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+.precio span {
+	font-family: 'dinpromedium';
+	font-size: 30px;
+}
+
+.abonomasimp {
+	margin-right: 20px;
+	line-height: 16px;
+	margin: 0px 20px 0px 0px;
+}
+
+.btn_vermas {
+	text-align: center;
+}
+
+/*.btn_vermas a {
+	background-color: #414042;
+	padding: 20px;
+	padding: 4px 10px;
+	color: #ffffff;
+}*/
+
+.btn_vermas p {
+	background-color: #414042;
+	padding: 20px;
+	padding: 4px 10px;
+	color: #ffffff;
+	display:inline-block;
+}
+
+#sin_cargo {
+	font-family: 'dinprobold';
+	font-size: 30px;
+	line-height: 30px;
+	color: #ff0000;
+	text-transform: uppercase;
+	margin: 12px 20px 15px 0px;
+}
+
+#productos_mobile {
+	background-image: url(../img/fondo_mobile.jpg);
+	background-repeat: no-repeat;
+}
+
+#productos_cajas {
+	background-image: url(../img/fondo_caja.jpg);
+	background-repeat: no-repeat;
+}
+
+#productos_alarmas {
+	background-image: url(../img/fondo_alarmas.jpg);
+	background-repeat: no-repeat;
+}
+
+/*Fin Productos_prosegur*/
+
+/*footer*/
+#footer {
+	background: none repeat scroll 0 0 #414042;
+	/*height: 150px;
+	width: 100%;*/
+	margin-top: 15px;
+	padding-top: 30px;
+	text-align: center;
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 150px;
+    width: 100%;
+}
+
+#footer_interior{
+	/*sticky footer*/
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/*Fin sticky footer*/
+	background: none repeat scroll 0 0 #414042;
+	height: 150px;
+	margin-top: 15px;
+	padding-top: 30px;
+	text-align: center;
+	width: 100%;
+
+}
+
+.slogan {
+	color: #cfcfd1;
+	font-family: 'dinprolight';
+	font-size: 26px;
+	margin-bottom: 5px;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+.slogan span {
+	color: #ffd400;
+}
+
+.pautas_legales, .pautas_legales a {
+	color: #939395;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 11px;
+}
+/*fin footer*/
+
+/*Productos_camaras.php*/
+#precio_y_detalle{
+	margin-left:20px;
+	padding-top:5px;
+	padding-bottom: 8px;
+}
+
+#precio_camaras{
+	font-family:dinprobold;
+	font-size: 38px;
+	float: left;
+	margin:0px;	
+	line-height: 34px;
+}
+
+#precio_camaras p{
+	margin:0px;
+	float:left;
+}
+
+#precio_cajas{
+	font-family:dinprobold;
+	font-size: 50px;
+	float: left;
+	margin:0px;	
+	line-height: 34px;
+}
+
+#precio_cajas p{
+	margin:0px;
+	float:left;
+}
+
+#precio_cajas span{
+	float:left;
+	font-size:36px;
+}
+
+#detalle_camaras{	
+	float:left;
+}
+
+#detalle_camaras p{
+	font-family:dinpromedium;
+	font-size:16px;
+	line-height: 14px;
+	margin:0px 0px 0px 5px;
+}
+
+#vineta{
+	float:left;
+	margin-top:10px;
+}
+
+.vineta{
+	float:left;
+	margin-top:10px;
+}
+
+.texto_camaras{
+	font-family: 'dinpromedium';
+	font-size: 20px;
+	color: black;	
+}
+
+#contenedor-nuevo {
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#contenedor-nuevo_izquierda {
+	width: 47.5%;
+	float: left;
+	margin-right: 5%;	
+}
+
+#contenedor-nuevo_derecha {
+	width: 47.5%;
+	float: left;
+}
+
+.titulo1 {
+	font-size: 18px;
+	color: #696969;
+	font-family: 'dinpromedium';
+	margin-left: 22px;
+}
+
+.text01 {
+	font-size: 19px;
+	font-family: 'dinprolight';
+}
+
+.extra-distance {
+	margin-bottom: 39px;
+}
+/*Fin_Productos_camaras.php*/
+
+/*  S L I D E R */
+
+#flexiselDemo3 {
+  background: white;
+}
+
+#flexiselDemo3 p {
+  text-transform: uppercase;
+  line-height: 0.5em;
+  font-size: 14px;
+}
+
+.slider{
+  width: 100%;
+  height: 200px;
+  padding-top: 8%;
+  overflow: hidden;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 0.2em;
+
+}
+
+.slider li {
+  list-style: none;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+
+
+
+.slider-margin {
+  margin-right: 5%;
+}
+
+.slider-margin02{
+  margin-right: 2%;
+}
+
+.margin02 {
+  margin-left: 13%;
+}
+
+.margin03 {
+  margin-left: 3.5%;
+}
+
+.slider03 .margin03 {
+  margin-left: 6.5%;
+}
+
+.slider03 .slider-margin02 {
+  margin-right: 0%;
+}
+
+.slider img {
+  width: 100%;
+}
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;
+    height: 250px;
+    padding-top: 6%;
+    margin-bottom: 250px;
+}
+
+.btn-slider {
+	text-decoration: none;
+}
+
+.btn-slider:visited {
+	color: black;
+}
+
+.btn-slider:active {
+	color:black;
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:120px;
+    max-height:45px;
+}
+
+.btn-slider {
+    width: 38%;
+    display: block;
+    text-decoration: none;
+    padding:5%;
+    font-size: 1em;
+    margin: 15% auto;
+    border: 1px solid #000000;
+}
+
+/*** Navigation ***/
+
+.nbs-flexisel-nav-left,
+.nbs-flexisel-nav-right {
+    width: 50px;
+    height: 50px; 
+    position: absolute;
+    margin-top: 55%;
+    cursor: pointer;  
+
+}
+
+.nbs-flexisel-nav-left {
+    left: -2px;
+    position: absolute;
+    top: 30% !important;
+    background: url(../img/button-previous.png) no-repeat;
+    background-size: 35%;
+    display: none;
+   
+}
+
+.nbs-flexisel-nav-right {
+    right: -26px;
+    background: url(../img/button-next.png) no-repeat;
+    background-size: 35%;
+    display: none;
+    
+}
+
+/*  T  O  O   L  T  I  P S  */
+/* Base styles for the element that has a tooltip */
+[data-tooltip],
+.tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Base styles for the entire tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: 
+      opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -moz-transition:    
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    transition:         
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform:    translate3d(0, 0, 0);
+  transform:         translate3d(0, 0, 0);
+  pointer-events: none;
+}
+
+/* Show the entire tooltip on hover and focus */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* Base styles for the tooltip's directional arrow */
+.tooltip:before,
+[data-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: "";
+}
+
+/* Base styles for the tooltip's content area */
+.tooltip:after,
+[data-tooltip]:after {
+  z-index: 500;
+  padding: 8px;
+  width: 160px;
+  color: #000000;
+  background:#EBEBEB;
+  content: attr(data-tooltip);
+  text-align: justify;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+/* Directions */
+
+/* Right */
+.tooltip-right:before,
+.tooltip-right:after {
+  bottom: 50%;
+  left: 65%;
+}
+
+.tooltip-right:before {
+  margin-top: 5%;
+  
+}
+
+.tooltip-right:hover:before,
+.tooltip-right:hover:after,
+.tooltip-right:focus:before,
+.tooltip-right:focus:after {
+  -webkit-transform: translateX(12px);
+  -moz-transform:    translateX(12px);
+  transform:         translateX(12px); 
+}
+
+/* Move directional arrows down a bit for left/right tooltips */
+.tooltip-right:before {
+  top: 0px;
+}
+
+/* Vertically center tooltip content for left/right tooltips */
+.tooltip-right:after {
+  margin-left: -1px;
+  margin-bottom: -15px;
+}
+
+
+.space {
+	width: 100px;
+}
+
+
+/*Prosegur_mobile.php*/
+#texto_mobile{
+	font-family: dinpromedium;
+	text-align: center;
+	font-size: 20px;
+}
+
+.titulo_parrafo{
+	font-family: dinpromedium;
+	text-transform:uppercase;
+	margin-left:20px;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+#caracteristicas_mobile {
+	background-color:#e9e9e9;
+	margin: 20px 0px;
+	padding:20px 10px;;
+}
+
+.parrafo_mobile {
+	font-family: 'dinprolight';
+	margin-left: 20px;
+	font-size: 22px;
+}
+
+.col_parrafo {
+	float: left;
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+#producto_titulo_descripcion_mobile {
+	float: left;
+	background-color: #8e8e8e;
+	padding: 5px 52px;
+}
+
+
+
+
+
+#producto_titulo_descripcion_caja{
+	float:left;
+	background-color:#8e8e8e;
+	padding:5px 17px;
+}
+
+#producto_titulo_descripcion_caja p {
+font-family: dinpromedium;
+text-transform: uppercase;
+margin: 0px;
+font-size: 18px;
+letter-spacing: -1px;
+color: #FFF;
+}
+
+/*Fin_Prosegur_mobile.php*/
+
+/*Gracias*/
+#contenedor_superior_gracias{
+	background-color:#434343;
+	padding: 30px 0px;
+}	
+
+#contenedor_principal_gracias {
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.productos_titulos_gracias{
+	background-color: #ffda22;
+	text-align: center;
+	width: 100%;
+	height: 60px;
+	display: table;
+}
+
+.productos_titulos_gracias p {
+	text-transform: uppercase;
+	font-family: 'dinpromedium';
+	font-size: 30px;
+	margin: 0px;
+	padding: 5px 0px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#textos_gracias,#imagen_gracias{
+	float:left;
+	width:50%;
+}
+
+#textos_gracias{
+	font-family: dinpromedium;
+	font-size: 19px;
+	text-transform: uppercase;
+	margin-top: 120px;
+	padding: 0px 10px;
+}
+
+#productos_titulos_borde_gracias {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #ffda22 transparent transparent transparent;
+	margin: 0 auto;
+	margin-bottom:-45px;
+}
+
+#linea1_gracias span {
+	font-size: 24px;
+}
+
+#linea2_gracias{
+	font-size: 25px;
+}
+
+#linea2_gracias span{
+	font-size: 26px;
+}
+
+/*Fin Gracias*/
+
+/*error Formulario*/
+span.error {
+	font-size: 10px;
+	color: red;
+	display: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*Fin error Formulario*/
+
+/*Legales*/
+	#contenedor_superior_legales {
+		max-width: 1000px;
+		min-width: 770px;
+		/* height: 446px; */
+		margin: 0 auto;
+		background-color:#f3e18c;
+		padding-bottom: 1px;
+	}
+	#legal_titulo_producto{
+		font-family: 'dinpromedium';
+		color:#5c5555;
+		text-transform:uppercase;
+		float:left;
+		height:61px;
+	}
+	#logo{
+		float:left;
+	}
+	#legales_producto {
+		font-size: 22px;
+		float: left;
+	}
+	#legales_detalle {
+		font-size: 12px;
+		float: left;
+		padding-top: 5px;
+		margin-left: 7px;
+		line-height: 15px;
+	}
+	#legal_titulo_producto {
+		font-family: 'dinpromedium';
+		text-transform: uppercase;
+		float: left;
+		min-height: 61px;
+		padding-top: 8px;
+		margin-left: 20px;
+	}
+	#texto_legales {
+		font-family: 'dinpromedium';
+		background-color: #fff;
+		margin: 2%;
+		padding: 2%;
+	}
+	
+/*Fin Legales*/
+
+/*estilos mobile*/
+@media (max-width: 650px) {
+	#contenedor_superior,#contenedor_superior_camaras,#contenedor_superior_mobile,#contenedor_superior_cajafuerte,#contenedor_superior_prosegurmobile{
+		max-width: 1000px;
+		min-width:320px;	
+		margin: 0 auto;
+		background-image:none;
+		padding: 0px 10px;
+		padding-bottom: 20px;
+	}
+	#contenedor_superior_cabaygba,#contenedor_superior_corrientes,#contenedor_superior_mendoza,#contenedor_superior_neuquen,#contenedor_superior_resistencia,#contenedor_superior_rosario,#contenedor_superior_sanluis,#contenedor_superior_santafe{
+		background-image:none;
+		height: auto;
+	}
+	#contenedor_superior_cabaygba a{
+		display: none !important;
+	}
+	.imagen-mobile{
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+	#contenedor_principal {
+		float: left;
+		margin-top: 10px;
+		width: 100%;
+		text-align: center;		
+	}	
+	#logo{
+		display: none;		
+	}
+	#logo_mobile_index {
+		display: inline-block;
+		float: left;
+	}
+	#logo_mobile {
+		display:inline-block;
+		position: absolute;
+		top: 10px;
+	}
+	#por_tu_familia {
+		display:none;
+	}
+	#producto_titulo {
+		margin-top: 0px;
+	}
+	#producto_titulo_borde {
+		display: none;
+	}
+	#producto_contenedor_borde{
+		display: none;
+	}
+	#producto_alarmas {
+		/*width: 90%;*/
+		margin: 0 auto;
+	}
+	#producto_contenedor_descripcion {
+		width: 100%;
+	}
+	#producto_titulo_descripcion {
+		width:100%
+	}
+	#contenedor_form {
+		width: 100%!important;
+	}
+	.productos {
+		float: none;
+	}
+	/*#footer{
+		height:170px;
+	}*/
+	.form_col1 {
+		display: none;
+	}
+	.form_col2 {
+		width: 100%;
+	}
+	.campos_textarea {
+		margin-top: 5px;
+		/*display:none;*/
+	}
+	#producto_titulo p {
+		font-size: 14px;
+		margin-top:10px;
+	}
+	#btn_vermas_principal{
+		text-align: center;
+		display:inline-block;		
+	}
+	#btn_vermas_principal p {
+		background-color: #414042;
+		padding: 20px;
+		padding: 4px 10px;
+		color: #ffffff;
+		margin: 0px;
+	}
+	.slogan {
+		font-size: 20px;
+	}
+	#contenedor_medio {
+		margin: 20px auto;
+		padding: 0 10px;
+		min-height: 2px;
+	}
+	#contenedor_productos {
+		display: table;
+		margin: 0 auto;
+		max-width: 980px;
+		width: auto;
+	}
+	.texto_camaras, .parrafo_mobile {
+		margin-left: 20px;
+		font-size: 18px;
+	}
+	#producto_titulo_descripcion_mobile {
+		width: 100%;
+	}
+	#texto_mobile {
+		font-size: 14px;
+		background-color: #e9e9e9;
+		padding: 2px;
+	}
+	#caracteristicas_mobile {
+		background-color:transparent;
+	}
+	.col_parrafo {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#caracteristicas_mobile{
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+	.llamanos {
+		display:block;
+		background-color: #b8b8bb;
+		background-image: url(../img/telefono.png);
+		background-repeat: no-repeat;
+		background-position: 50px 10px;
+		text-transform: uppercase;
+		font-family: 'dinprobold';
+		text-align: center;
+	}
+	.llamanos p {
+		color: #4c4b4e;
+		font-size: 18px;
+		padding: 10px 0px;
+		margin-top: 20px;
+	}
+	#producto_titulo_descripcion_caja {
+		width: 100%;
+	}
+	#precio_y_detalle {
+		display: inline-block;
+	}
+	#producto_contenedor_descripcion {
+		text-align: center;
+	}
+	#producto_titulo_descripcion_caja p {
+		letter-spacing: 0px;
+	}
+	#header_mobile_camaras{
+		background-image:;
+	}
+	#header_mobile_camaras{
+		display:inline-block;
+		width:100%;
+	}
+	#imagen_gracias {
+		float: right;
+		width: 100%;
+		margin-top: -360px;
+	}
+	#textos_gracias {
+		float:left;
+		width: 100%;
+		font-size: 17px;
+		margin-top: 300px;
+	}
+	#linea2_gracias {
+		display: none;
+	}
+	#textos_gracias {
+		font-size: 15px;
+	}
+	#contenedor_superior_gracias {
+		padding: 30px 10px;
+		text-align:center;
+	}
+	#linea1_gracias span {
+		font-size: 19px;
+	}
+	.blockMsg{
+	width: 70%!important;
+	left: 18%!important;
+	}
+}
+/*fin estilos mobile*/
